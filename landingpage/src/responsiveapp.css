@@ -1,0 +1,116 @@
+@media(max-width:768px){
+    .App
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-whole{
+        display:flex;height:100%;width:90%;margin:auto;align-items:center;position: relative;
+      }
+    .links{
+        opacity:0;
+    }
+    .linksopen{
+        list-style: none;
+       position:fixed;
+       top:10vh;
+       left:0;
+       width:100%;
+       height:35vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       background-color: #EE4248;
+       color:white;
+       font-weight: bold;
+    }
+    .linksopenli{
+        cursor:pointer;
+    }
+    .links-2{
+       opacity: 0;
+    }
+    .hamburger{
+        position: absolute;
+        opacity: 1;
+        cursor: pointer;
+        right:0;
+    }
+    .body1info{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        height:100%;
+        padding: 10px;
+    }
+    .body1info img{
+        width: 100%;
+    }
+    .body1info .body1infofirst{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding:10px
+    }
+    .body1infofirst h1{
+        font-size:32px;font-weight:bold
+      }
+    .body1infofirst h3{
+        text-align: center;
+    }
+    .body2info{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#F6F6F6;
+        height:100%;
+    }
+    .body2info img{
+        width: 100%;
+    }
+    .body2info .body2desc{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .body2desc h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .body2desc h3{
+        padding: 15px;
+    }
+    .body3info{
+        display:flex;
+        flex-direction: column;
+        height:100%
+    }
+    .clips{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:space-around;
+        padding: 10px;
+    }
+    .body3sec{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .body4{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .body4parts{
+        padding:10px
+    }
+}
